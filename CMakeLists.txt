@@ -13,4 +13,4 @@ find_package(fmt CONFIG REQUIRED)
 include_directories(include)
 add_library(JNI src/Class.cpp src/Helper.cpp src/String.cpp include/Array.hpp)
 
-target_link_libraries(JNI PRIVATE fmt::fmt)
+target_link_libraries(JNI fmt::fmt)
