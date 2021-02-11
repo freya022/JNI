@@ -1,8 +1,8 @@
 #pragma clang diagnostic push
 #pragma ide diagnostic ignored "google-explicit-constructor"
 
-#ifndef JNIFSHOTS_CLASS_HPP
-#define JNIFSHOTS_CLASS_HPP
+#ifndef JNI_CLASS_HPP
+#define JNI_CLASS_HPP
 
 #include <fmt/core.h>
 #include "Helper.hpp"
@@ -35,6 +35,6 @@ namespace JNI {
 }
 
 
-#endif //JNIFSHOTS_CLASS_HPP
+#endif //JNI_CLASS_HPP
 
 #pragma clang diagnostic pop

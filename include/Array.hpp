@@ -1,6 +1,6 @@
 
-#ifndef JNIIMAGE_ARRAY_HPP
-#define JNIIMAGE_ARRAY_HPP
+#ifndef JNI_ARRAY_HPP
+#define JNI_ARRAY_HPP
 
 #include "jni.h"
 #include <algorithm>
@@ -45,4 +45,4 @@ namespace JNI {
 	};
 }
 
-#endif //JNIIMAGE_ARRAY_HPP
+#endif //JNI_ARRAY_HPP

@@ -1,6 +1,6 @@
 
-#ifndef JNIFSHOTS_JNI_HELPER_HPP
-#define JNIFSHOTS_JNI_HELPER_HPP
+#ifndef JNI_JNI_HELPER_HPP
+#define JNI_JNI_HELPER_HPP
 
 #include <string>
 #include <string_view>
@@ -24,4 +24,4 @@ namespace JNI {
 	std::string getTypeFromParameter(std::string_view params, size_t start, size_t end);
 }
 
-#endif //JNIFSHOTS_JNI_HELPER_HPP
+#endif //JNI_JNI_HELPER_HPP

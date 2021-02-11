@@ -1,6 +1,6 @@
 
-#ifndef JNIFSHOTS_METHOD_HPP
-#define JNIFSHOTS_METHOD_HPP
+#ifndef JNI_METHOD_HPP
+#define JNI_METHOD_HPP
 
 #include "Helper.hpp"
 #include "Exception.hpp"
@@ -98,4 +98,4 @@ namespace JNI {
 	};
 }
 
-#endif //JNIFSHOTS_METHOD_HPP
+#endif //JNI_METHOD_HPP

@@ -1,6 +1,6 @@
 
-#ifndef JNIFSHOTS_STR_UTILS_H
-#define JNIFSHOTS_STR_UTILS_H
+#ifndef JNI_STR_UTILS_H
+#define JNI_STR_UTILS_H
 
 #include <string>
 #include <string_view>
@@ -27,4 +27,4 @@ static inline std::string trim(std::string_view v) {
 	return std::string(start, end);
 }
 
-#endif //JNIFSHOTS_STR_UTILS_H
+#endif //JNI_STR_UTILS_H

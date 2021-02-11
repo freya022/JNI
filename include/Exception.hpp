@@ -1,6 +1,6 @@
 
-#ifndef JNIFSHOTS_JNI_EXCEPTION_HPP
-#define JNIFSHOTS_JNI_EXCEPTION_HPP
+#ifndef JNI_JNI_EXCEPTION_HPP
+#define JNI_JNI_EXCEPTION_HPP
 
 #include "Helper.hpp"
 #include "Class.hpp"
@@ -15,4 +15,4 @@ namespace JNI {
 	};
 }
 
-#endif //JNIFSHOTS_JNI_EXCEPTION_HPP
+#endif //JNI_JNI_EXCEPTION_HPP
