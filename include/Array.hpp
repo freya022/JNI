@@ -44,6 +44,10 @@ namespace JNI {
 				return (jbyte *) array;
 			}
 		}
+
+		jsize length() const noexcept {
+			return GetEnv()->GetArrayLength(jArray);
+		}
 	};
 }
 
